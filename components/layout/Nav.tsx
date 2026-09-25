@@ -30,14 +30,9 @@ export function Nav() {
         <div className="nav-inner">
           {/* Logo */}
           <Link href="/" className="nav-logo" aria-label="explr home">
-            <Image
-              src="/logo.jpeg"
-              alt="explr logo"
-              width={120}
-              height={40}
-              className="nav-logo-img"
-              priority
-            />
+            <span className="font-black text-2xl tracking-tight text-[#1E2620] flex items-baseline">
+              explr<span className="text-[#C96F4F] text-3xl leading-none font-black ml-0.5">.</span>
+            </span>
           </Link>
 
           {/* Desktop nav */}

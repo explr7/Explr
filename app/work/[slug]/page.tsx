@@ -41,7 +41,7 @@ export default async function WorkDetailPage({
     <article className="min-h-screen">
       {/* Hero */}
       <section
-        className="section-py pt-32"
+        className="pt-36 sm:pt-44 pb-14 sm:pb-20"
         aria-labelledby="case-heading"
         style={{
           background: `linear-gradient(135deg, ${study.color}0D 0%, var(--explr-bg) 60%)`,

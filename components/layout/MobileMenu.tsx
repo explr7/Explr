@@ -40,14 +40,10 @@ export function MobileMenu({ open, onClose, links }: MobileMenuProps) {
       {/* Top bar */}
       <div className="mobile-menu-top">
         <Link href="/" className="mobile-menu-logo" onClick={onClose}>
-            <Image
-              src="/logo.jpeg"
-              alt="explr logo"
-              width={100}
-              height={34}
-              className="nav-logo-img-dark"
-            />
-          </Link>
+          <span className="font-black text-2xl tracking-tight text-white flex items-baseline">
+            explr<span className="text-[#C96F4F] text-3xl leading-none font-black ml-0.5">.</span>
+          </span>
+        </Link>
         <button
           ref={closeRef}
           className="mobile-menu-close"

@@ -35,15 +35,10 @@ export function Footer() {
         <div className="footer-top">
           {/* Brand */}
           <div className="footer-brand">
-            <Link href="/" className="footer-logo-link">
-              <Image
-                src="/logo.jpeg"
-                alt="explr logo"
-                width={110}
-                height={36}
-                className="nav-logo-img-dark"
-                style={{ marginBottom: '1rem' }}
-              />
+            <Link href="/" className="footer-logo-link" style={{ marginBottom: '1rem', display: 'inline-block' }}>
+              <span className="font-black text-2xl tracking-tight text-white flex items-baseline">
+                explr<span className="text-[#C96F4F] text-3xl leading-none font-black ml-0.5">.</span>
+              </span>
             </Link>
             <p className="footer-tagline">
               We help ambitious brands find their footing, build their presence, and
