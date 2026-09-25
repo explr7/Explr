@@ -26,7 +26,7 @@ export function Nav() {
 
   return (
     <>
-      <header className={`nav-header${scrolled ? ' glass-nav' : ''}`}>
+      <header className={`nav-header glass-nav${scrolled ? ' nav-scrolled' : ''}`}>
         <div className="nav-inner">
           {/* Logo */}
           <Link href="/" className="nav-logo" aria-label="explr home">

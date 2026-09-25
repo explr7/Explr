@@ -49,8 +49,8 @@ export function Footer() {
               We help ambitious brands find their footing, build their presence, and
               grow with intention.
             </p>
-            <a href="mailto:hello@explr.co" className="footer-email">
-              hello@explr.co
+            <a href="mailto:explr7060@gmail.com" className="footer-email">
+              explr7060@gmail.com
             </a>
           </div>
 

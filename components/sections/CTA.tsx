@@ -36,8 +36,8 @@ export function CTA() {
             <Button href="/contact" variant="primary" size="lg" className="glass-btn">
               Start a project <ArrowRight size={15} />
             </Button>
-            <a href="mailto:hello@explr.co" className="cta-email-btn">
-              <Mail size={14} /> hello@explr.co
+            <a href="mailto:explr7060@gmail.com" className="cta-email-btn">
+              <Mail size={14} /> explr7060@gmail.com
             </a>
           </div>
         </div>

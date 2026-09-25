@@ -59,7 +59,7 @@ const jsonLd = {
   logo: 'https://explr.co/logo.png',
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'hello@explr.co',
+    email: 'explr7060@gmail.com',
     contactType: 'customer service',
   },
   sameAs: ['https://twitter.com/explr', 'https://linkedin.com/company/explr'],

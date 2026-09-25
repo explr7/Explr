@@ -72,7 +72,7 @@ export function MobileMenu({ open, onClose, links }: MobileMenuProps) {
         <a href="/contact" className="mobile-menu-btn" onClick={onClose}>
           Start a project
         </a>
-        <p className="mobile-menu-hint">hello@explr.co · London & Remote</p>
+        <p className="mobile-menu-hint">explr7060@gmail.com · London & Remote</p>
       </div>
     </div>
   );
