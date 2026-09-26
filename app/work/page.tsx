@@ -37,11 +37,12 @@ export default function WorkPage() {
       {/* Work list */}
       <section aria-label="All case studies" className="section-py">
         <Container className="max-w-4xl">
-          <div className="space-y-6">
+          <div className="space-y-6" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }} >
             {caseStudies.map((study, i) => (
               <Reveal key={study.slug} delay={i * 80}>
                 <Link href={`/work/${study.slug}`} className="no-underline group block">
                   <article
+                  style={{padding:"24px"}}
                     className="flex flex-col md:flex-row gap-6 lg:gap-8 p-6 lg:p-8 rounded-xl border border-[rgba(46,58,47,0.1)] bg-[var(--bg-card)] hover:shadow-[var(--shadow-card)] transition-all duration-300"
                   >
                     {/* Color panel */}
@@ -96,15 +97,18 @@ export default function WorkPage() {
 
       {/* Bottom CTA */}
       <section
-        className="section-py border-t border-[rgba(46,58,47,0.1)] text-center"
+        className="section-py border-t border-[rgba(46,58,47,0.1)]"
         aria-labelledby="work-cta-heading"
       >
-        <Container className="max-w-2xl">
-          <h2 id="work-cta-heading" className="mb-4">Want to build something great?</h2>
+        <Container className="max-w-2xl flex flex-col items-center text-center">
+          <h2 id="work-cta-heading" className="mb-4">
+            Want to build something great?
+          </h2>
           <p className="text-[#5C6259] mb-8">
-            Whether it is a custom website, high-converting e-commerce platform, or dynamic video content, let&apos;s talk about your next project.
+            Whether it is a custom website, high-converting e-commerce platform, or
+            dynamic video content, let&apos;s talk about your next project.
           </p>
-          <Button href="/contact" variant="primary" size="lg">
+          <Button href="/contact" variant="primary" size="lg" className="inline-flex items-center gap-2">
             Start a project <ArrowRight size={16} />
           </Button>
         </Container>

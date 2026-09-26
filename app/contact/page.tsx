@@ -156,7 +156,7 @@ export default function ContactPage() {
                   </div>
 
                   {/* Budget */}
-                  <div>
+                  {/* <div>
                     <label htmlFor="cf-budget" className="block text-[0.7rem] font-bold uppercase tracking-widest text-[#2E3A2F] mb-2 font-sans">
                       Budget range <span className="text-[#5C6259]/60 font-normal normal-case text-xs">(optional)</span>
                     </label>
@@ -177,7 +177,7 @@ export default function ContactPage() {
                         </svg>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Message */}
                   <div>
