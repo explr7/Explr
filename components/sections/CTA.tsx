@@ -3,7 +3,7 @@ import { ArrowRight, Mail } from 'lucide-react';
 
 export function CTA() {
   return (
-    <section className="cta-section section-py" aria-labelledby="cta-heading">
+    <section style={{paddingBottom: "0px"}} className="cta-section section-py" aria-labelledby="cta-heading">
       {/* Background blobs */}
       <div aria-hidden="true" style={{ position: 'absolute', inset: 0, pointerEvents: 'none', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '-8rem', right: '-8rem', width: '500px', height: '500px', borderRadius: '50%', background: 'radial-gradient(circle,#C96F4F 0%,transparent 70%)', opacity: 0.12, filter: 'blur(80px)' }} />
@@ -42,6 +42,6 @@ export function CTA() {
           </div>
         </div>
       </div>
-    </section>
+    </section>  
   );
 }

@@ -20,7 +20,7 @@ export default function WorkPage() {
     <div className="min-h-screen">
       {/* Page hero */}
       <section
-        className="pt-36 sm:pt-44 pb-14 sm:pb-20 border-b border-[rgba(46,58,47,0.08)]"
+        className="page-hero border-b border-[rgba(46,58,47,0.08)]"
         aria-labelledby="work-page-heading"
       >
         <Container className="max-w-4xl">
